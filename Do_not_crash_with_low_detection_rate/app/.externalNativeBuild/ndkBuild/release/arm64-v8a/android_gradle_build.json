@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Yuxuan\\Desktop\\Sample7_6\\jni\\Android.mk",
+    "C:\\Users\\Yuxuan\\Desktop\\Sample7_6\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "PedDetect-release-arm64-v8a": {
+      "buildCommand": "E:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6\\app\\build\\intermediates\\ndkBuild\\release\\lib C:\\Users\\Yuxuan\\Desktop\\Sample7_6\\app\\.externalNativeBuild\\ndkBuild\\release\\obj/local/arm64-v8a/libPedDetect.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "PedDetect",
+      "files": [
+        {
+          "src": "C:\\Users\\Yuxuan\\Desktop\\Sample7_6\\jni\\PedDetect.cpp",
+          "flags": "\"-gcc-toolchain\" \"E:/Android/sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IE:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IE:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include\" \"-IE:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/Yuxuan/Desktop/Sample7_6/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"E:/Android/sdk/ndk-bundle/build//../platforms/android-21/arch-arm64/usr/include\""
+        }
+      ],
+      "output": "C:\\Users\\Yuxuan\\Desktop\\Sample7_6\\app\\.externalNativeBuild\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libPedDetect.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "E:\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

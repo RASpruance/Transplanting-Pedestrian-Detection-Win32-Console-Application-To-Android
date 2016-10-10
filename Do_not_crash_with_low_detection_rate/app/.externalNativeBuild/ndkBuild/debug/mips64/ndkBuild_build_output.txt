@@ -1,0 +1,5 @@
+md "C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib\mips64" >NUL 2>NUL || rem
+E:/Android/sdk/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [mips64] "Install        ": "libPedDetect.so => C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib/mips64/libPedDetect.so"
+copy /b/y "C:\Users\Yuxuan\Desktop\Sample7_6\app\.externalNativeBuild\ndkBuild\debug\obj\local\mips64\libPedDetect.so" "C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib\mips64\libPedDetect.so" > NUL
+E:/Android/sdk/ndk-bundle/build//../toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/bin/mips64el-linux-android-strip --strip-unneeded  C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib/mips64/libPedDetect.so
+process_begin: CreateProcess(NULL, "", ...) failed.

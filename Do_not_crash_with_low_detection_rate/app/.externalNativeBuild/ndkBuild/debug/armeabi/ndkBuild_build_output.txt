@@ -1,0 +1,5 @@
+md "C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib\armeabi" >NUL 2>NUL || rem
+E:/Android/sdk/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [armeabi] "Install        ": "libPedDetect.so => C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib/armeabi/libPedDetect.so"
+copy /b/y "C:\Users\Yuxuan\Desktop\Sample7_6\app\.externalNativeBuild\ndkBuild\debug\obj\local\armeabi\libPedDetect.so" "C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib\armeabi\libPedDetect.so" > NUL
+E:/Android/sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-strip --strip-unneeded  C:\Users\Yuxuan\Desktop\Sample7_6\app\build\intermediates\ndkBuild\debug\lib/armeabi/libPedDetect.so
+process_begin: CreateProcess(NULL, "", ...) failed.
