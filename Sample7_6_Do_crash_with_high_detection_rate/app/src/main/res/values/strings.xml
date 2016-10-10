@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">YX.Xiu</string>
+    <string name="app_name">Sample7_6</string>
+    <string name="DataDirectory">/sdcard/PED_DETECT</string>
+</resources>

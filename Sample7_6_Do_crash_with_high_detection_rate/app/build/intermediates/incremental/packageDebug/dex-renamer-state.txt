@@ -1,0 +1,4 @@
+#Mon Oct 10 17:59:34 CST 2016
+base.0=C\:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

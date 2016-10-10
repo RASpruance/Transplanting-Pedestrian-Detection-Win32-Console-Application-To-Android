@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\jni\\Android.mk",
+    "C:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "PedDetect-release-x86": {
+      "buildCommand": "E:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\build\\intermediates\\ndkBuild\\release\\lib C:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj/local/x86/libPedDetect.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "PedDetect",
+      "files": [
+        {
+          "src": "C:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\jni\\PedDetect.cpp",
+          "flags": "\"-gcc-toolchain\" \"E:/Android/sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IE:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IE:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include\" \"-IE:/Android/sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/Yuxuan/Desktop/Sample7_6_Do_not_crash_with_low_detection_rate/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-isystem\" \"E:/Android/sdk/ndk-bundle/build//../platforms/android-9/arch-x86/usr/include\""
+        }
+      ],
+      "output": "C:\\Users\\Yuxuan\\Desktop\\Sample7_6_Do_not_crash_with_low_detection_rate\\app\\.externalNativeBuild\\ndkBuild\\release\\obj\\local\\x86\\libPedDetect.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "E:\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
